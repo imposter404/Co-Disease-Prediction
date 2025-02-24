@@ -8,4 +8,4 @@ I am gonna do this prediction project
 - Neural network 
 
 ## what i need to learn ?
-* decision tree
+- decision tree
