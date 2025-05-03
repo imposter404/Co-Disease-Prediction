@@ -4,7 +4,7 @@ I am gonna do this prediction project
 
 
 ## what I need ?
-- decision tree ::done::
+- decision tree [::done::]
 - random forest 
 - 
 
