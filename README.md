@@ -4,9 +4,10 @@ I am gonna do this prediction project
 
 
 ## what I need ?
-- decision tree [::done::]
-- random forest 
-- 
+- decision tree ✅
+- random forest ✅ 
+- Bays classification 
+- Jaccard distance 
 
 
 ## what i need to learn ?
