@@ -20,7 +20,7 @@ I am gonna do this prediction project
 
 current 
 ## learning 
-- jaccard distance 
-- bays classification 
+- jaccard distance ✅
+- bays classification ✅ 
 
 
