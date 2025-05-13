@@ -25,8 +25,7 @@ current
 
 ---
 
-[: construction :]
 
-> [!WARNING]
+> [!DANGER]
 > work in progress 
 
