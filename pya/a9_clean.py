@@ -30,7 +30,7 @@ def Random_disease():
     print(final)
     #----------- save to json file------------
     final=json.dumps(final)
-    with open('b_pair.json','w+') as outfile:
+    with open('c_pair.json','w+') as outfile:
         outfile.write(final)
     #-----------------------------------
 # -----------------------------------
@@ -55,7 +55,7 @@ def Disease_symptom():
 
     #----------- save to csv file------------
     sy=json.dumps(sy)
-    with open('b1.json','w+') as outfile:
+    with open('c1.json','w+') as outfile:
         outfile.write(sy)
     # -----------------------------------
 # -----------------------------------
@@ -68,7 +68,7 @@ def Disease_symptom():
 
 # remove duplicate values--------------------------
 def Disease_symptom_duplicate():
-    with open('b1.json','r') as openfile:
+    with open('c1.json','r') as openfile:
         df=json.load(openfile)
 
     for x in disease:
@@ -76,7 +76,7 @@ def Disease_symptom_duplicate():
     
     #----------- save to csv file------------
     df=json.dumps(df)
-    with open('b2.json','w+') as outfile:
+    with open('c2.json','w+') as outfile:
         outfile.write(df)
     #--------------------------------------
 #-------------------------------------------------------
@@ -91,9 +91,9 @@ def Disease_symptom_duplicate():
 def make_Disease():
     final=[]
     f=[]
-    with open('b_pair.json','r') as openfile:
+    with open('c_pair.json','r') as openfile:
         pair=json.load(openfile)
-    with open('b2.json','r') as openfile:
+    with open('c2.json','r') as openfile:
         symptom=json.load(openfile)
 
     for i in range(len(pair)):
@@ -109,7 +109,7 @@ def make_Disease():
 
     #----------- save to json file------------
     final=json.dumps(final)
-    with open('b3.json','w+') as outfile:
+    with open('c3.json','w+') as outfile:
         outfile.write(final)
     #----------------------------------------
 
@@ -128,7 +128,7 @@ def make_Disease():
 
     # ----------- save to csv file------------
     df=pd.DataFrame(z)
-    df.to_csv('b3_binary.csv',index=False)
+    df.to_csv('c3_binary.csv',index=False)
     # -----------------------------------
 
 
@@ -136,7 +136,7 @@ def make_Disease():
 
 
 
-# Random_disease()
-# Disease_symptom()
-# Disease_symptom_duplicate()
-# make_Disease()
+Random_disease()
+Disease_symptom()
+Disease_symptom_duplicate()
+make_Disease()

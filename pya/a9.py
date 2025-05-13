@@ -153,7 +153,7 @@ def make_Disease():
     # -----------------------------------
 
 
-make_Disease()
+# make_Disease()
 # final=final[0][0]+final[0][1]
 # final=list(final[0]
 # print(f)

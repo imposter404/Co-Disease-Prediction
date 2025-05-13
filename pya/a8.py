@@ -18,7 +18,6 @@ import os
 os.system('cls')
 # df = pd.read_csv("diabetes.csv")
 
-
 from sklearn.model_selection import train_test_split
 from sklearn.multioutput import MultiOutputClassifier
 from sklearn.linear_model import LogisticRegression
@@ -27,3 +26,4 @@ from sklearn.datasets import make_multilabel_classification
 
 X, y = make_multilabel_classification(n_samples=10, n_features=4,n_classes=20,random_state=5,n_labels=2)
 print(X)
+
