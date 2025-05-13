@@ -26,6 +26,6 @@ current
 ---
 
 [:construction:]
-> [WARNING]
+> [!WARNING]
 > work in progress 
 
