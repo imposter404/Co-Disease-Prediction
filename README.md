@@ -1,4 +1,8 @@
 # Co Disease Prediction
+<div align="left">
+# Co Disease Prediction
+</div>
+
 
 I am gonna do this prediction project 
 
