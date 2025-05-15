@@ -1,4 +1,4 @@
-# Co-Disease-Prediction
+# Co Disease Prediction
 
 I am gonna do this prediction project 
 
