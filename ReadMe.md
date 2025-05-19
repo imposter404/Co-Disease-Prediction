@@ -57,9 +57,11 @@ We Gather histiorical data of the disease pair that ocurred together and we chec
 
 ### Apriori Algorithm
 - Support
-    - 
+    - Confidence (x => y) signifies the likelihood of the item y being purchased when item x is purchased. This method takes into account the popularity of item x. 
+
 - Confidence
     -
+
 - Lift
     -
 
