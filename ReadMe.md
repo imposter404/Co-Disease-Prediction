@@ -47,7 +47,7 @@ but if we union the two disease `A` & `B` symptoms we get a underlaying disease 
 
 Where `C` is a subset of `A` union `B`
 
-``` math
+```math
 A \cup B \implies \subset C
 ```
 
