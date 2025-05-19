@@ -1,0 +1,354 @@
+Disease1,Disease2
+Hypertension,Hyperlipidemia
+Hypertension,Arthritis
+Hypertension,Diabetes
+Hypertension,HIV
+Hypertension,Ischemic Heart Disease
+Diabetes,Arthritis
+Dyslipidemia,Hyperuricemia
+Dyslipidemia,Hypertension
+Depression,Hypertension
+Depression,Arthritis
+Depression,Diabetes
+Depression,COPD/Asthma
+Depression,Heart Disease
+Dementia,Hypertension
+Osteoarthritis,Hypertension
+Diabetes Mellitus,Stroke
+Cancer,Depression
+Cancer,Diabetes
+Hypertension,Musculoskeletal Disease
+Hypertension,Diabetes & Arthritis
+Disease 1,Disease 2
+Hypertension,High Cholesterol
+Hypertension,Arthritis
+Hypertension,Diabetes
+Hypertension,Heart Disease
+Hypertension,Cancer
+Hypertension,Asthma
+Hypertension,COPD
+Hypertension,Stroke
+Hypertension,Kidney Disease
+Hypertension,Depression
+High Cholesterol,Arthritis
+High Cholesterol,Diabetes
+High Cholesterol,Heart Disease
+High Cholesterol,Cancer
+High Cholesterol,Asthma
+High Cholesterol,COPD
+High Cholesterol,Stroke
+High Cholesterol,Kidney Disease
+High Cholesterol,Depression
+Arthritis,Diabetes
+Arthritis,Heart Disease
+Arthritis,Cancer
+Arthritis,Asthma
+Arthritis,COPD
+Arthritis,Stroke
+Arthritis,Kidney Disease
+Arthritis,Depression
+Diabetes,Heart Disease
+Diabetes,Cancer
+Diabetes,Asthma
+Diabetes,COPD
+Diabetes,Stroke
+Diabetes,Kidney Disease
+Diabetes,Depression
+Heart Disease,Cancer
+Heart Disease,Asthma
+Heart Disease,COPD
+Heart Disease,Stroke
+Heart Disease,Kidney Disease
+Heart Disease,Depression
+Cancer,Asthma
+Cancer,COPD
+Cancer,Stroke
+Cancer,Kidney Disease
+Cancer,Depression
+Asthma,COPD
+Asthma,Stroke
+Asthma,Kidney Disease
+Asthma,Depression
+COPD,Stroke
+COPD,Kidney Disease
+COPD,Depression
+Stroke,Kidney Disease
+Stroke,Depression
+Kidney Disease,Depression
+Hypertension,Obesity
+Hypertension,Depression
+Hypertension,Pain
+Diabetes,Obesity
+Diabetes,Depression
+Diabetes,Pain
+Diabetes,COPD
+Heart Disease,Obesity
+Heart Disease,Depression
+Heart Disease,Pain
+Heart Disease,COPD
+Heart Disease,Stroke
+Heart Disease,Cancer
+Cancer,Obesity
+Cancer,Depression
+Cancer,Pain
+Cancer,COPD
+Cancer,Stroke
+Asthma,Obesity
+Asthma,Depression
+Asthma,Pain
+Asthma,COPD
+Asthma,Stroke
+COPD,Obesity
+COPD,Depression
+COPD,Pain
+COPD,Stroke
+COPD,Cancer
+Stroke,Obesity
+Stroke,Depression
+Stroke,Pain
+Stroke,Cancer
+Kidney Disease,Obesity
+Kidney Disease,Depression
+Kidney Disease,Pain
+Kidney Disease,COPD
+Kidney Disease,Stroke
+Kidney Disease,Cancer
+Depression,Obesity
+Depression,Pain
+Depression,Cancer
+Pain,Obesity
+Pain,Cancer
+Pain,COPD
+Pain,Stroke
+Hypertension,Osteoarthritis
+Hypertension,Coronary artery disease
+Hypertension,Diabetes mellitus
+Hypertension,Stroke
+Hypertension,Cancer
+Hypertension,Dementia
+Depression,Hypertension
+Depression,Arthritis
+Depression,Diabetes mellitus
+Depression,COPD/Asthma
+Depression,Cancer
+Depression,Heart disease
+Diabetes mellitus,Stroke
+Diabetes mellitus,Cancer
+Dementia,Hypertension
+Dementia,Stroke
+Osteoarthritis,Hypertension
+Heart disease,Depression
+Hypertension,Visual impairment
+Diabetes mellitus,Depression
+Disease 1,Disease 2
+Cancer,Arthritis
+Cardiovascular Disease,Arthritis
+Diabetes,Arthritis
+Cancer,Cardiovascular Disease
+Cancer,Diabetes
+Cardiovascular Disease,Diabetes
+Cancer,COPD
+Cardiovascular Disease,COPD
+Diabetes,COPD
+Arthritis,COPD
+Hypertension,High Cholesterol
+Hypertension,Arthritis
+Hypertension,Diabetes
+Hypertension,Heart Disease
+Hypertension,Cancer
+Hypertension,Asthma
+Hypertension,COPD
+Hypertension,Stroke
+Hypertension,Kidney Disease
+Hypertension,Depression
+High Cholesterol,Arthritis
+High Cholesterol,Diabetes
+High Cholesterol,Heart Disease
+High Cholesterol,Cancer
+High Cholesterol,Asthma
+High Cholesterol,COPD
+High Cholesterol,Stroke
+High Cholesterol,Kidney Disease
+High Cholesterol,Depression
+Arthritis,Diabetes
+Arthritis,Heart Disease
+Arthritis,Cancer
+Arthritis,Asthma
+Arthritis,COPD
+Arthritis,Stroke
+Arthritis,Kidney Disease
+Arthritis,Depression
+Diabetes,Heart Disease
+Diabetes,Cancer
+Diabetes,Asthma
+Diabetes,COPD
+Diabetes,Stroke
+Diabetes,Kidney Disease
+Diabetes,Depression
+Heart Disease,Cancer
+Heart Disease,Asthma
+Heart Disease,COPD
+Heart Disease,Stroke
+Heart Disease,Kidney Disease
+Heart Disease,Depression
+Cancer,Asthma
+Cancer,COPD
+Cancer,Stroke
+Cancer,Kidney Disease
+Cancer,Depression
+Asthma,COPD
+Asthma,Stroke
+Asthma,Kidney Disease
+Asthma,Depression
+COPD,Stroke
+COPD,Kidney Disease
+COPD,Depression
+Stroke,Kidney Disease
+Stroke,Depression
+Kidney Disease,Depression
+Hypertension,Obesity
+Hypertension,Depression
+Hypertension,Pain
+Diabetes,Obesity
+Diabetes,Depression
+Diabetes,Pain
+Diabetes,COPD
+Heart Disease,Obesity
+Heart Disease,Depression
+Heart Disease,Pain
+Heart Disease,COPD
+Heart Disease,Stroke
+Heart Disease,Cancer
+Cancer,Obesity
+Cancer,Depression
+Hypertension,Diabete
+Hypertension,Hyperlipidemi
+Hypertension,Obesit
+Hypertension,Chronic Kidney Diseas
+Hypertension,Heart Failur
+Hypertension,Coronary Artery Diseas
+Hypertension,Strok
+Hypertension,Atrial Fibrillatio
+Hypertension,Arthriti
+Hypertension,Depressio
+Diabetes,Hyperlipidemi
+Diabetes,Obesit
+Diabetes,Chronic Kidney Diseas
+Diabetes,Coronary Artery Diseas
+Diabetes,Retinopath
+Diabetes,Neuropath
+Diabetes,Depressio
+Diabetes,Arthriti
+Diabetes,Heart Failur
+Diabetes,Strok
+Obesity,Hyperlipidemi
+Obesity,Sleep Apne
+Obesity,Osteoarthriti
+Obesity,Fatty Liver Diseas
+Obesity,GER
+Obesity,Depressio
+Obesity,Asthm
+Obesity,Polycystic Ovary Syndrom
+Obesity,Hypertensio
+Obesity,Diabete
+COPD,Heart Failur
+COPD,Coronary Artery Diseas
+COPD,Depressio
+COPD,Lung Cance
+COPD,Osteoporosi
+COPD,Hypertensio
+COPD,Diabete
+Asthma,Allergic Rhiniti
+Asthma,Eczem
+Asthma,Depressio
+Asthma,GER
+Asthma,Obesit
+Asthma,Anxiet
+Asthma,Sleep Apne
+Asthma,Sinusiti
+Heart Failure,Chronic Kidney Diseas
+Heart Failure,Atrial Fibrillatio
+Heart Failure,Diabete
+Heart Failure,Hypertensio
+Heart Failure,COP
+Coronary Artery Disease,Diabete
+Coronary Artery Disease,Hypertensio
+Coronary Artery Disease,Hyperlipidemi
+Coronary Artery Disease,Chronic Kidney Diseas
+Coronary Artery Disease,Depressio
+Stroke,Hypertensio
+Stroke,Diabete
+Stroke,Atrial Fibrillatio
+Stroke,Hyperlipidemi
+Stroke,Depressio
+Chronic Kidney Disease,Hypertensio
+Chronic Kidney Disease,Diabete
+Chronic Kidney Disease,Heart Failur
+Chronic Kidney Disease,Anemi
+Chronic Kidney Disease,Hyperparathyroidis
+Chronic Kidney Disease,Gou
+Osteoarthritis,Obesit
+Osteoarthritis,Hypertensio
+Osteoarthritis,Diabete
+Osteoarthritis,Depressio
+Rheumatoid Arthritis,Osteoporosi
+Rheumatoid Arthritis,Cardiovascular Diseas
+Rheumatoid Arthritis,Depressio
+Rheumatoid Arthritis,Interstitial Lung Diseas
+Rheumatoid Arthritis,Sjögren’s Syndrom
+Depression,Anxiet
+Depression,Insomni
+Depression,Chronic Pai
+Depression,Diabete
+Depression,Heart Diseas
+Anxiety,Insomni
+Anxiety,Migrain
+Anxiety,Asthm
+Anxiety,Irritable Bowel Syndrom
+Anxiety,Depressio
+Epilepsy,Depressio
+Epilepsy,Migrain
+Epilepsy,Anxiet
+Epilepsy,Intellectual Disabilit
+Migraine,Depressio
+Migraine,Anxiet
+Migraine,Irritable Bowel Syndrom
+Migraine,Asthm
+Migraine,Fibromyalgi
+Fibromyalgia,Depressio
+Fibromyalgia,Chronic Fatigue Syndrom
+Fibromyalgia,Irritable Bowel Syndrom
+Fibromyalgia,Anxiet
+Fibromyalgia,Migrain
+Chronic Pain,Depressio
+Depression,Hypertension
+Depression,Arthritis
+Depression,Diabetes
+Depression,COPD/Asthma
+Depression,Heart Disease
+Diabetes,Stroke
+Diabetes,Heart Failure
+Coronary Artery Disease,Hypertension
+Cancer,Hypertension
+Diabetes,Stroke
+Diabetes,Heart Failure
+Coronary Artery Disease,Hypertension
+Cancer,Hypertension
+Osteoarthritis,Hypertension
+Arthritis,Depression
+COPD/Asthma,Depression
+Hypertension,Arthritis
+Hypertension,Cancer
+Hypertension,Cardiovascular Disease
+Hypertension,Osteoarthritis
+Hypertension,Coronary Artery Disease
+Hypertension,Diabetes
+Hypertension,Stroke
+Hypertension,Cancer
+Hypertension,Dementia
+Hypertension,Osteoarthritis
+Hypertension,Coronary Artery Disease
+Hypertension,Diabetes
+Hypertension,Stroke
+Hypertension,Cancer
+Hypertension,Dementia
