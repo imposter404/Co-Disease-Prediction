@@ -56,8 +56,7 @@ A \cup B \implies \subset C
 We Gather histiorical data of the disease pair that ocurred together and we check the frequency of that pair of disease to predict the likelyhood of a disease pair to occure
 
 ### Apriori Algorithm
-- Support
-    - Support of item x is nothing but the ratio of the number of transactions in which item x appears to the total number of transactions
+- *Support* : Support of item x is nothing but the ratio of the number of transactions in which item x appears to the total number of transactions
 
 - Confidence
     - Confidence (x => y) signifies the likelihood of the item y being purchased when item x is purchased. This method takes into account the popularity of item x. 
