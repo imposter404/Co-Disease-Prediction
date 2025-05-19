@@ -58,8 +58,7 @@ We Gather histiorical data of the disease pair that ocurred together and we chec
 ### Apriori Algorithm
 - *Support* : Support of item x is nothing but the ratio of the number of transactions in which item x appears to the total number of transactions
 
-- Confidence
-    - Confidence (x => y) signifies the likelihood of the item y being purchased when item x is purchased. This method takes into account the popularity of item x. 
+- **Confidence** : Confidence (x => y) signifies the likelihood of the item y being purchased when item x is purchased. This method takes into account the popularity of item x. 
 
 - Lift
     - Lift (x => y) is nothing but the ‘interestingness’ or the likelihood of the item y being purchased when item x is sold. Unlike confidence (x => y), this method takes into account the popularity of the item y.
