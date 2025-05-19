@@ -117,7 +117,7 @@ Accuracy= r=87.71 d=92.13 s=90.15
 # Data
 Training data
 - Kaggle 
-    - [data]()
+    - [data](https://www.kaggle.com/datasets/kaushil268/disease-prediction-using-machine-learning)
 
 Disease Pair data for `Apriori`
 - data have been collected from various journals 
