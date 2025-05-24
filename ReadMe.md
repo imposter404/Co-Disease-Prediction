@@ -47,21 +47,20 @@ but if we union the two disease `A` & `B` symptoms we get a underlaying disease 
 
 Where `C` is a subset of `A` union `B`
 
-<!-- ``` -->
-$ A \cup B \implies \subset C $
-<!-- ``` -->
+```math
+A \cup B \implies \subset C
+```
 
 
 ## 2. Histiorical Data Analysis
 We Gather histiorical data of the disease pair that ocurred together and we check the frequency of that pair of disease to predict the likelyhood of a disease pair to occure
 
 ### Apriori Algorithm
-- Support
-    - 
-- Confidence
-    -
-- Lift
-    -
+- **Support** : Support of item x is nothing but the ratio of the number of transactions in which item x appears to the total number of transactions
+
+- **Confidence** : Confidence (x => y) signifies the likelihood of the item y being purchased when item x is purchased. This method takes into account the popularity of item x. 
+
+- **Lift** : Lift (x => y) is nothing but the ‘interestingness’ or the likelihood of the item y being purchased when item x is sold. Unlike confidence (x => y), this method takes into account the popularity of the item y.
 
 
 
@@ -76,7 +75,7 @@ We Gather histiorical data of the disease pair that ocurred together and we chec
 
 ---
 # Code
-
+## import library 
 > ``` python
 > import pandas as pd 
 > import numpy as np
@@ -118,7 +117,7 @@ Accuracy= r=87.71 d=92.13 s=90.15
 # Data
 Training data
 - Kaggle 
-    - [data]()
+    - [data](https://www.kaggle.com/datasets/kaushil268/disease-prediction-using-machine-learning)
 
 Disease Pair data for `Apriori`
 - data have been collected from various journals 
