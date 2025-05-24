@@ -1,0 +1,221 @@
+Disease1,Disease2,pol,per
+Acne,Dermatitis Skin,0.33,2.559723
+Acne,Allergy/chronic Rhinitis Respiratory,0.24,1.874962
+Acne,Bronchial Asthma Respiratory,0.21,1.641028
+Acne,Depression Psychiatric,0.21,1.616263
+Acne,Anxiety Psychiatric,0.17,1.318700
+Acne,Enthesopathy Musculoskeletal,0.13,1.022066
+Acne,Migraine Neurological,0.12,0.902400
+Acne,Obesity Endocrine,0.11,0.872187
+Acne,Menorrhagia Genitourinary,0.11,0.818345
+Acne,Irritable Bowel Syndrome Digestive,0.09,0.712081
+AIDS,Depression Psychiatric,0.28,0.024739
+AIDS,Infection Other organs Infections,0.26,0.023241
+AIDS,Dermatitis Skin,0.21,0.018696
+AIDS,Raised Total Cholesterol Endocrine,0.17,0.015184
+AIDS,Bacterial Infection Infections,0.16,0.014590
+AIDS,Hypertension Cardiovascular,0.16,0.014539
+AIDS,Obesity Endocrine,0.16,0.014255
+AIDS,Anxiety Psychiatric,0.15,0.013480
+AIDS,Allergy/chronic Rhinitis Respiratory,0.15,0.013325
+AIDS,Bronchial Asthma Respiratory,0.13,0.011724
+Hepatitis,Infection Liver Infections,0.55,0.129298
+Hepatitis,Depression Psychiatric,0.38,0.090150
+Hepatitis,Substance Misuse Psychiatric,0.35,0.082712
+Hepatitis,Bacterial Infection Infections,0.24,0.057741
+Hepatitis,Anxiety Psychiatric,0.24,0.057070
+Hepatitis,Alcohol Misuse Psychiatric,0.23,0.055081
+Hepatitis,Dermatitis Skin,0.22,0.051105
+Hepatitis,Hypertension Cardiovascular,0.20,0.047463
+Hepatitis,Obesity Endocrine,0.19,0.044829
+Hepatitis,Bronchial Asthma Respiratory,0.19,0.044623
+Allergy,Dermatitis Skin,0.39,5.699724
+Allergy,Bronchial Asthma Respiratory,0.32,4.633112
+Allergy,Raised Total Cholesterol Endocrine,0.25,3.664604
+Allergy,Enthesopathy Musculoskeletal,0.23,3.426693
+Allergy,Depression Psychiatric,0.22,3.302301
+Allergy,Obesity Endocrine,0.19,2.796782
+Allergy,Hypertension Cardiovascular,0.19,2.734082
+Allergy,Anxiety Psychiatric,0.18,2.642022
+Allergy,Raised LDL Endocrine,0.16,2.420767
+Allergy,Osteoarthristis Musculoskeletal,0.13,1.941096
+Osteoarthristis,Hypertension Cardiovascular,0.56,6.038759
+Osteoarthristis,Raised Total Cholesterol Endocrine,0.56,6.010121
+Osteoarthristis,Enthesopathy Musculoskeletal,0.43,4.645353
+Osteoarthristis,Obesity Endocrine,0.37,3.971283
+Osteoarthristis,Raised LDL Endocrine,0.35,3.719453
+Osteoarthristis,Dermatitis Skin,0.31,3.315110
+Osteoarthristis,Depression Psychiatric,0.29,3.114307
+Osteoarthristis,Raised Triglycerides Endocrine,0.28,3.015558
+Osteoarthristis,Cataract Eye,0.24,2.545933
+Osteoarthristis,Bacterial Infection Infections,0.23,2.487262
+Bronchial Asthma,Dermatitis Skin,0.37,5.589741
+Bronchial Asthma,Allergy/chronic Rhinitis Respiratory,0.31,4.633112
+Bronchial Asthma,Depression Psychiatric,0.24,3.578690
+Bronchial Asthma,Raised Total Cholesterol Endocrine,0.22,3.322650
+Bronchial Asthma,Obesity Endocrine,0.22,3.252720
+Bronchial Asthma,Enthesopathy Musculoskeletal,0.20,3.035287
+Bronchial Asthma,Hypertension Cardiovascular,0.19,2.885072
+Bronchial Asthma,Anxiety Psychiatric,0.18,2.615759
+Bronchial Asthma,Infection Other organisms Infections,0.16,2.423297
+Bronchial Asthma,Raised LDL Endocrine,0.14,2.095107
+Cervical spondylosis,Raised Total Cholesterol Endocrine,0.58,2.218440
+Cervical spondylosis,Hypertension Cardiovascular,0.56,2.148303
+Cervical spondylosis,Osteoarthristis Musculoskeletal,0.51,1.973763
+Cervical spondylosis,Enthesopathy Musculoskeletal,0.47,1.796537
+Cervical spondylosis,Raised LDL Endocrine,0.36,1.391109
+Cervical spondylosis,Depression Psychiatric,0.34,1.320817
+Cervical spondylosis,Obesity Endocrine,0.34,1.292850
+Cervical spondylosis,Dermatitis Skin,0.33,1.286627
+Cervical spondylosis,Raised Triglycerides Endocrine,0.30,1.147568
+Cervical spondylosis,Anxiety Psychiatric,0.26,0.993970
+Chronic cholestasis,Hypertension Cardiovascular,0.46,1.402987
+Chronic cholestasis,Raised Total Cholesterol Endocrine,0.45,1.379101
+Chronic cholestasis,Obesity Endocrine,0.44,1.323968
+Chronic cholestasis,Cholecystitis Digestive,0.40,1.212979
+Chronic cholestasis,Depression Psychiatric,0.34,1.029916
+Chronic cholestasis,Enthesopathy Musculoskeletal,0.34,1.017805
+Chronic cholestasis,Osteoarthristis Musculoskeletal,0.32,0.978941
+Chronic cholestasis,Dermatitis Skin,0.30,0.904466
+Chronic cholestasis,Raised LDL Endocrine,0.28,0.859430
+Chronic cholestasis,Bacterial Infection Infections,0.26,0.780643
+Diabetes,Hypertension Cardiovascular,0.73,3.668400
+Diabetes,Raised Total Cholesterol Endocrine,0.63,3.168071
+Diabetes,Obesity Endocrine,0.60,3.016307
+Diabetes,Raised Triglycerides Endocrine,0.55,2.776484
+Diabetes,Low HDL Endocrine,0.41,2.070497
+Diabetes,Raised LDL Endocrine,0.37,1.846427
+Diabetes,Enthesopathy Musculoskeletal,0.35,1.743960
+Diabetes,Osteoarthristis Musculoskeletal,0.34,1.710674
+Diabetes,Depression Psychiatric,0.29,1.429327
+Diabetes,Diabetic Eye Disease Eye,0.28,1.402213
+Fungal infection,Infection Other organs Infections,0.58,0.403465
+Fungal infection,Bacterial Infection Infections,0.53,0.363439
+Fungal infection,Hypertension Cardiovascular,0.43,0.297693
+Fungal infection,Infection Lower Respiratory Tract Infections,0.42,0.286382
+Fungal infection,Infection Other organisms Infections,0.35,0.238841
+Fungal infection,Depression Psychiatric,0.34,0.237111
+Fungal infection,Raised Total Cholesterol Endocrine,0.33,0.226807
+Fungal infection,Dermatitis Skin,0.33,0.225361
+Fungal infection,Urinary Tract Infection Infections,0.29,0.196878
+Fungal infection,Bronchial Asthma Respiratory,0.28,0.196465
+Gastroenteritis,Raised Total Cholesterol Endocrine,0.43,2.495396
+Gastroenteritis,Hypertension Cardiovascular,0.41,2.369275
+Gastroenteritis,Gastro-oesophageal Reflux Disease Digestive,0.35,2.009709
+Gastroenteritis,Enthesopathy Musculoskeletal,0.33,1.940244
+Gastroenteritis,Depression Psychiatric,0.33,1.936422
+Gastroenteritis,Dermatitis Skin,0.31,1.819080
+Gastroenteritis,Oesophageal Ulcer Digestive,0.29,1.686632
+Gastroenteritis,Diaphragmatic Hernia Digestive,0.28,1.651461
+Gastroenteritis,Obesity Endocrine,0.28,1.643584
+Gastroenteritis,Osteoarthristis Musculoskeletal,0.28,1.640486
+Heart attack,Hypertension Cardiovascular,0.82,1.866441
+Heart attack,Atrial Fibrillation Cardiovascular,0.53,1.211558
+Heart attack,Raised Total Cholesterol Endocrine,0.52,1.199912
+Heart attack,Infection Lower Respiratory Tract Infections,0.48,1.092848
+Heart attack,Bacterial Infection Infections,0.48,1.087038
+Heart attack,Osteoarthristis Musculoskeletal,0.47,1.070795
+Heart attack,Infection Other organisms Infections,0.44,1.016307
+Heart attack,Cataract Eye,0.39,0.902168
+Heart attack,Obesity Endocrine,0.39,0.881018
+Heart attack,Stable Angina Cardiovascular,0.38,0.874433
+Hepatitis,Infection Liver Infections,0.55,0.129298
+Hepatitis,Depression Psychiatric,0.38,0.090150
+Hepatitis,Substance Misuse Psychiatric,0.35,0.082712
+Hepatitis,Bacterial Infection Infections,0.24,0.057741
+Hepatitis,Anxiety Psychiatric,0.24,0.057070
+Hepatitis,Alcohol Misuse Psychiatric,0.23,0.055081
+Hepatitis,Dermatitis Skin,0.22,0.051105
+Hepatitis,Hypertension Cardiovascular,0.20,0.047463
+Hepatitis,Obesity Endocrine,0.19,0.044829
+Hepatitis,Bronchial Asthma Respiratory,0.19,0.044623
+Hypertension,Raised Total Cholesterol Endocrine,0.62,10.840834
+Hypertension,Obesity Endocrine,0.40,6.884451
+Hypertension,Raised LDL Endocrine,0.39,6.840965
+Hypertension,Raised Triglycerides Endocrine,0.35,6.074628
+Hypertension,Osteoarthristis Musculoskeletal,0.35,6.038759
+Hypertension,Enthesopathy Musculoskeletal,0.33,5.722784
+Hypertension,Dermatitis Skin,0.27,4.744566
+Hypertension,Depression Psychiatric,0.26,4.449017
+Hypertension,Cataract Eye,0.22,3.865407
+Hypertension,Bacterial Infection Infections,0.22,3.833515
+Hyperthyroidism,Hypertension Cardiovascular,0.71,0.135057
+Hyperthyroidism,Raised Total Cholesterol Endocrine,0.56,0.105592
+Hyperthyroidism,Osteoarthristis Musculoskeletal,0.41,0.077238
+Hyperthyroidism,Bacterial Infection Infections,0.37,0.070730
+Hyperthyroidism,Obesity Endocrine,0.36,0.067606
+Hyperthyroidism,Enthesopathy Musculoskeletal,0.35,0.065901
+Hyperthyroidism,Raised LDL Endocrine,0.34,0.064094
+Hyperthyroidism,Depression Psychiatric,0.31,0.058593
+Hyperthyroidism,Raised Triglycerides Endocrine,0.31,0.057741
+Hyperthyroidism,Dermatitis Skin,0.30,0.056553
+Jaundice,Dermatitis Skin,0.34,0.402484
+Jaundice,Low Birth Weight Perinatal,0.25,0.290333
+Jaundice,Premature Delivery Perinatal,0.24,0.278557
+Jaundice,Infection Other organisms Infections,0.21,0.248912
+Jaundice,Respiratory Distress of the Newborn Perinatal,0.19,0.216814
+Jaundice,Viral Infection Infections,0.18,0.211597
+Jaundice,Infection Ear/Upper Respiratory Tract Infections,0.17,0.196594
+Jaundice,Bacterial Infection Infections,0.14,0.158633
+Jaundice,Bronchial Asthma Respiratory,0.12,0.134850
+Jaundice,Infection Lower Respiratory Tract Infections,0.11,0.132035
+Migraine,Depression Psychiatric,0.34,2.295136
+Migraine,Dermatitis Skin,0.33,2.212113
+Migraine,Raised Total Cholesterol Endocrine,0.29,1.943007
+Migraine,Enthesopathy Musculoskeletal,0.27,1.835840
+Migraine,Anxiety Psychiatric,0.26,1.732830
+Migraine,Obesity Endocrine,0.24,1.624217
+Migraine,Allergy/chronic Rhinitis Respiratory,0.24,1.601621
+Migraine,Bronchial Asthma Respiratory,0.23,1.530400
+Migraine,Hypertension Cardiovascular,0.20,1.385221
+Migraine,Raised LDL Endocrine,0.19,1.259616
+Arthritis,Hypertension Cardiovascular,0.53,0.531937
+Arthritis,Osteoarthristis Musculoskeletal,0.51,0.511743
+Arthritis,Raised Total Cholesterol Endocrine,0.50,0.506733
+Arthritis,Enthesopathy Musculoskeletal,0.44,0.443104
+Arthritis,Obesity Endocrine,0.33,0.332632
+Arthritis,Depression Psychiatric,0.32,0.322070
+Arthritis,Dermatitis Skin,0.31,0.308874
+Arthritis,Bacterial Infection Infections,0.30,0.303477
+Arthritis,Raised LDL Endocrine,0.29,0.295704
+Arthritis,Infection Other organisms Infections,0.25,0.248267
+Peptic ulcer diseae,Hypertension Cardiovascular,0.54,1.121564
+Peptic ulcer diseae,Raised Total Cholesterol Endocrine,0.49,1.016540
+Peptic ulcer diseae,Gastroenteritis Digestive,0.45,0.925357
+Peptic ulcer diseae,Osteoarthristis Musculoskeletal,0.36,0.745678
+Peptic ulcer diseae,Enthesopathy Musculoskeletal,0.35,0.732663
+Peptic ulcer diseae,Bacterial Infection Infections,0.33,0.681093
+Peptic ulcer diseae,Depression Psychiatric,0.32,0.651990
+Peptic ulcer diseae,Gastro-oesophageal Reflux Disease Digestive,0.31,0.638665
+Peptic ulcer diseae,Obesity Endocrine,0.30,0.618161
+Peptic ulcer diseae,Raised LDL Endocrine,0.29,0.607264
+Pneumonia,Hypertension Cardiovascular,0.29,0.129737
+Pneumonia,Raised Total Cholesterol Endocrine,0.29,0.127981
+Pneumonia,Depression Psychiatric,0.27,0.117910
+Pneumonia,Dermatitis Skin,0.26,0.113210
+Pneumonia,Enthesopathy Musculoskeletal,0.25,0.111480
+Pneumonia,Infection Lower Respiratory Tract Infections,0.25,0.110602
+Pneumonia,Infection Other organisms Infections,0.24,0.105902
+Pneumonia,Bronchial Asthma Respiratory,0.22,0.097948
+Pneumonia,Bacterial Infection Infections,0.22,0.097638
+Pneumonia,Chronic Obstructive Pulmonary Disease Respiratory,0.21,0.092190
+Psoriasis,Dermatitis Skin,0.40,1.293083
+Psoriasis,Raised Total Cholesterol Endocrine,0.35,1.128717
+Psoriasis,Hypertension Cardiovascular,0.29,0.941187
+Psoriasis,Enthesopathy Musculoskeletal,0.28,0.907926
+Psoriasis,Obesity Endocrine,0.27,0.859378
+Psoriasis,Depression Psychiatric,0.26,0.854911
+Psoriasis,Raised LDL Endocrine,0.22,0.722101
+Psoriasis,Anxiety Psychiatric,0.19,0.630195
+Psoriasis,Osteoarthristis Musculoskeletal,0.19,0.627406
+Psoriasis,Allergy/chronic Rhinitis Respiratory,0.19,0.607987
+Tuberculosis,Hypertension Cardiovascular,0.42,0.250720
+Tuberculosis,Raised Total Cholesterol Endocrine,0.40,0.240726
+Tuberculosis,Dermatitis Skin,0.27,0.163721
+Tuberculosis,Osteoarthristis Musculoskeletal,0.27,0.161164
+Tuberculosis,Enthesopathy Musculoskeletal,0.27,0.160803
+Tuberculosis,Raised LDL Endocrine,0.26,0.153598
+Tuberculosis,Depression Psychiatric,0.23,0.137613
+Tuberculosis,Infection Lower Respiratory Tract Infections,0.23,0.136890
+Tuberculosis,Bacterial Infection Infections,0.22,0.130770
+Tuberculosis,Obesity Endocrine,0.21,0.124650
