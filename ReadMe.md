@@ -29,6 +29,9 @@ the project leverage data analysis and predictive modeling to assist healthcare 
 
 
 
+
+
+
 ---
 # Approach
 Co Disease Predicted using two ways 
@@ -112,6 +115,19 @@ We Gather histiorical data of the disease pair that ocurred together and we chec
 ```
 Accuracy= r=87.71 d=92.13 s=90.15
 ```
+
+
+---
+# Notes
+
+The `requirements.txt` file should list all Python libraries that your notebooks
+depend on, and they will be installed using:
+
+```
+pip install -r requirements.txt
+```
+
+
 
 ---
 # Data
