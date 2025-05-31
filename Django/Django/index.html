@@ -1,0 +1,793 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Co Disease</title>
+<link rel="stylesheet" href="{% static 'CDN/bootstrap.min.css' %}">
+<link rel="stylesheet" href="{% static 'CDN/bootstrap-icons-1.11.3/font/bootstrap-icons.css' %}">
+<script src="{% static 'CDN/Apex Chart/apex.js' %}"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<style>
+*{
+  /* border: .5px solid red;  */
+  box-sizing: border-box;
+}
+body{
+  overflow: hidden;
+  background: rgb(59, 59, 59);
+  background: linear-gradient(0deg,#c21e3a,rgb(33, 11, 50));
+
+  /* background:linear-gradient(0deg,#00000071,#0000006c),url(static/img/a2.png) no-repeat center center/contain,#000000; */
+  height: 100dvh;
+  color: white;
+  margin: 0;
+}
+.middle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+.flex{
+  display: flex;
+}
+
+.headers{
+  animation: fade 1s ease ;
+  position: absolute;
+  inset: 0 0 0 0;
+  padding: 20px 5%;
+  .flex{
+    gap: 30px;
+  }
+  .button{
+    padding: 15px 20px;
+    /* background: grey; */
+    width: fit-content;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.256);
+    transition: all .2s ease-in-out;
+    &.active{
+      background: #c21e3962;
+      border-color: #c21e39;
+    }
+    &:hover{
+      cursor: pointer;
+      background: #c21e3962;
+      border-color: #c21e39;
+    }
+  }
+}
+
+.home{
+  height: 100dvh;
+  animation: fade 5s ease ;
+  .container{
+    scale: 147%;
+    height: 600px;
+    width: 630px;
+    margin-top: 100px;
+    position: relative;
+    .laptop{
+      height: 100%;
+      height: 76%;
+      position: relative;
+      background:calc();
+      background:url(static/img/a1_2.png) no-repeat top/contain;
+      background:url("{% static 'static/img/a1_2.png' %}") no-repeat top/contain;
+      transition: all .4s ease-in-out;
+      .display{
+        z-index: -1;
+        position: absolute;
+        width: 84%;
+        /* height: 64%; */
+        height: 83%;
+        inset: 20px 0px 0px 51px;
+        border-radius: 0px 0px 20px 20px;
+        background:url(static/img/a1_1.png) no-repeat top/contain;
+        background:url("{% static 'static/img/a1_1.png' %}") no-repeat top/cover;
+        transition: all .4s ease-in-out;
+      }
+      .button{
+        position: fixed;
+        inset: 74% 0 auto 0;
+        & button{
+          border-radius: 20px;
+          padding: 10px 20px;
+          font-size: 12px;
+          transition: all .2s ease-in-out;
+          width: 102px;
+        }
+      }
+      &:hover{
+        height: 100%;
+        button:hover{
+          /* scale: 1.1; */
+          width: 155px;
+          transition: all .2s ease-in-out;
+          
+          box-shadow: 0 5px 10px 0px rgb(0 0 0 / 60%);
+        }
+      }
+    }
+    .float_1{
+      color: black;
+      position: absolute;
+      inset: 100px 0 0 -20px ;
+      background: rgb(255, 255, 255);
+      height: 180px;
+      aspect-ratio: 4/5;
+      border-radius: 20px;
+      box-shadow: 0 0 15px -5px black;
+      animation: slide-right 1s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+      animation-delay: 1s;
+
+      .logo{
+        background:url(static/img/a1_3.png) no-repeat top/contain;
+        background:url("{% static 'static/img/a1_3.png' %}") no-repeat top/contain;
+        height: 50px;
+        margin: 20px 0 10px 0;
+      }
+    }
+  }
+}
+
+.fullscreen{
+  scale: 300%;
+}
+
+
+
+@keyframes fade{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+
+
+
+
+@keyframes slide-right{
+  0%{
+    opacity: 0;
+    transform: translateX(-100%);
+    /* scale: 2; */
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+    /* scale: 1; */
+  }
+}
+
+
+
+
+
+
+
+.scale{
+  animation: scale .5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@keyframes scale{
+  0%{
+  }
+  100%{
+    /* transform: translateY(30%); */
+    scale: 500%;
+  }
+}
+
+
+@keyframes show{
+  0%{
+    opacity:0
+  }
+  40%{
+    background:linear-gradient(0deg,#000000,#000000),url("{% static 'static/img/a4.jpg' %}") no-repeat top/cover;
+  }
+
+  100%{
+    opacity:1;
+
+    /* background: rebeccapurple; */
+    background:linear-gradient(0deg,#00000042,#0000006b),url("{% static 'static/img/a4.jpg' %}") no-repeat top/cover;
+  }
+}
+
+
+
+.home_2{
+  background: rgb(255, 255, 255);
+  background: rebeccapurple;
+  opacity: 1;
+  position: fixed;
+  /* inset: 0 0 0 0 ; */
+  /* display: none; */
+  transition: all .5s ease;
+  &.show{
+    display: block;
+    animation: show 3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  }
+  .card1{
+    min-height: 400px;
+    height: fit-content;
+    height: 500px;
+    max-width: 80%;
+    width: fit-content;
+    min-width: 600px;
+    background: #830041;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 20px 20px 0px rgba(0, 0, 0, 0.432);
+    /* border: 2px solid rgba(255, 0, 0, 0.363); */
+    border: 5px solid transparent;
+    position: relative;
+    transition: all .2s ease-in-out;
+    &:hover{
+      box-shadow: 0 20px 50px 0px rgba(0, 0, 0, 0.432);
+      transform: translateY(-10px);
+    }
+    .symptom{
+      padding: 20px 10px;
+      &.flex{
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      .pill{
+        width: fit-content;
+        border-radius: 20px;
+        padding: 5px 10px;
+        i{
+          padding: 0px 0px 0px 10px;
+          cursor: pointer;
+        }
+      }
+    }
+    .inputGroup{
+      background: rgba(0, 0, 0, 0.671);
+      height: 60px;
+      border-radius: 50px;
+      border: 1px solid rgb(0, 0, 0);
+      padding: 0 20px;
+      transition: all .2s ease-in-out;
+      &:hover{
+        box-shadow: 0 0 0px 5px rgba(0, 58, 146, 0.39);
+      }
+      .search{
+        position: absolute;
+        right: 10px;
+        top: 3px;
+        background: rgb(0, 102, 255);
+        height: 50px;
+        width: 100px;
+        /* aspect-ratio: 1/1; */
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+        &:hover{
+          color: black;
+          background: rgb(255, 255, 255);
+        }
+      }
+      .input{
+        background: transparent;
+        border: 0px;
+        caret-color: white;
+        color: white;
+        padding-top: 5px;
+        height: 50px;
+        width: 80%;
+        &:focus-visible{
+          outline: 0;
+        }
+      }
+    }
+  }
+
+  .predict{
+    margin-top: 50px;
+    min-height: 100px;
+    height: fit-content;
+    width: 60%;
+    max-width: 600px;
+    /* background: #830041; */
+    border-radius: 50px;
+    padding: 20px;
+    /* box-shadow: 0 20px 20px 0px rgba(0, 0, 0, 0.432); */
+    border: 5px solid transparent;
+    position: relative;
+    transition: all .2s ease-in-out;
+    /* &:hover{
+      box-shadow: 0 20px 50px 0px rgba(0, 0, 0, 0.432);
+      transform: translateY(-10px);
+    } */
+  }
+}
+
+
+
+
+.offcanvas1{
+    position: fixed;
+    inset: 75px 0 0 0;
+    background: #ca620000;
+    background: rgba(97, 0, 0, 1);
+    padding: 70px 50px;
+    z-index: 2;
+    transform: translateY(100%);
+    border-radius: 50px 50px 0 0;
+    /* visibility: hidden; */
+    /* animation: appear linear;
+    animation-timeline: view();
+    animation-range:entry 0% cover 40% ; */
+}
+
+
+
+.slide-in-bottom{
+  visibility:visible;
+  animation: slide-in-bottom .5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@keyframes slide-in-bottom{
+  0%{
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
+.slide-out-bottom{
+  animation: slide-out-bottom .5s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@keyframes slide-out-bottom{
+  0%{
+    transform: translateY(0%);
+  }
+  100%{
+    transform: translateY(100%);
+  }
+}
+
+
+
+
+.show{
+  position: fixed;
+  inset: 0 0 0 0;
+  backdrop-filter: blur(40px);
+  transition: all .5s ease-in-out;
+}
+
+
+.predictedDisease{
+ .flex{
+  width: 100%;
+ }
+ .flex-div{
+  flex: 50%;
+  padding:30px 30px;
+  margin-bottom: 30px;
+  .card1{
+    background: rgb(57, 0, 104);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 20px 20px -5px rgba(0, 0, 0, 0.507);
+  }
+ }
+ .card1{
+  background: rgb(65, 65, 65);
+  border-radius: 20px;
+ }
+}
+
+
+
+
+
+</style>
+<body>
+
+
+<div class="headers">
+  <div class="flex">
+    <div class="flex-div">
+      <div class="button active">HOME</div>
+    </div>
+    <div class="flex flex-div" style="justify-content: right;width: 100%;">
+      <div class="button">Healthcare</div>
+      <div class="button">AI-Driven</div>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="home middle">
+  <div class="container" style="scale: 1.6;">
+    <div class="laptop">
+      <div class="display"></div>
+    </div>
+    <div class="float_1">
+      <div class="logo"></div>
+      <div class="center" style="font-size: 15px;">
+        AI-Powered <br>
+        diagonostics
+      </div>
+      <div class="center" style="font-size: 10px;text-align: center;padding: 8px 0;line-height: .9;">
+        Our tools analyze vast amounts of genomic data to identify potential
+        health issues early
+      </div>
+    </div>
+  </div>
+</div> -->
+<div class="home middle">
+  <div class="container">
+    <div class="laptop" id="laptop">
+      <div class="display" id="display">
+      </div>
+      <div class="middle button" >
+        <button class="btn btn-warning" id="button" style="z-index: 5;cursor: pointer;" onclick="Full()">
+          Get Started
+        </button>
+      </div>
+    <div class="float_1" id="float_1">
+      <div class="logo"></div>
+      <div class="center" style="font-size: 15px;">
+        AI-Powered <br>
+        diagonostics
+      </div>
+      <div class="center" style="font-size: 10px;text-align: center;padding: 8px 0;line-height: .9;">
+        Our tools analyze vast amounts of genomic data to identify potential
+        health issues early
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="home_2" id="home_2">
+  <div style="padding: 20px 10% 50px 10% ;background: rgba(0, 0, 0, 0.301);">
+    <div style="font-size: 60px;"> Co Disease</div>
+    <div style="font-size: 40px;"> Prediction</div>
+  </div>
+
+  <div class="middle" style="height: 80%;flex-direction: column;">
+    <div class="card1">
+      <div class="center" style="font-size: 30px;">Enter your symptom</div>
+      <hr>
+      <div>
+        <div>Your Symptom are :</div>
+        <div class="symptom flex" id="symptom">
+          <!-- <div class="flex-div pill text-bg-primary">Primary <i class="bi bi-x-lg" onclick="symptom_ui_remove(0)"></i></div> -->
+           <div class="middle" style="width:100%">
+             <div style="font-size: 30px;">No Symptom Added</div>
+           </div>
+        </div>
+      </div>
+      <div style="position: absolute;inset: auto 0 0 0;">
+        <div style="padding: 20px 20px;">
+          <hr>
+          <!-- <label for="input" class="form-label">Symptom</label> -->
+          <div class="inputGroup" style="position: relative;">
+            <div class="search middle" onclick="Add()">ADD</div>
+            <input class="input middle" id="input" list="datalistOptions" placeholder="Type to search..." autocomplete="off">
+          </div>
+          <datalist id="datalistOptions"></option>
+            <!-- <option value="San Francisco"></option> -->
+          </datalist>
+        </div>
+      </div>
+    </div>
+    <div class="predict">
+      <div class="middle" style="height: 100%;font-size: 20px;width: 100%">
+        <button class="btn btn-warning" style="width: 50%;border-radius: 50px;height: 55px;" onclick="CoDisease()">Predict</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="offcanvas1-backdrop"></div>
+
+<div class="offcanvas1 predictedDisease" id="output">
+  <div data-bs-theme="dark" style="font-size: 40px;position: relative;">Predicted Disease <button class="btn btn-close" style="position: absolute;right: 0;top: 20px;" onclick="offcanvas_Close('#output','bottom')"></button></div>
+  <hr>
+  <div style="padding: 50px 0;">
+    <div class="card1">
+      <div class="flex">
+        <div class="flex-div">
+          <div class="card1">
+            <div>Accoding to you Symptoms</div>
+            <hr>
+            <div id="chart1"></div>
+          </div>
+        </div>
+        <div class="flex-div">
+          <div class="card1">
+            <div>Disease you may have in future</div>
+            <hr>
+            <div id="chart2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="header center">
+    <div class="middle">
+        Co Disease Prediction 
+    </div>
+</div>
+<div> -->
+
+
+<!-- <div>
+{{n}}
+
+</div>
+
+<input id="n"> -->
+
+
+
+
+
+
+
+
+
+</div>
+    
+</body>
+
+<script>
+  function offcanvas_Open(e,f)
+{
+  let elements=document.querySelectorAll(e);
+  elements.forEach(element => {
+    element.classList.remove("slide-out-"+f);
+    element.classList.add("slide-in-"+f);
+  });
+  let backdrop=document.querySelectorAll('.offcanvas1-backdrop')
+      backdrop.forEach(element => {
+      element.classList.add("show");
+    });
+}
+
+
+function offcanvas_Close(e,f)
+{
+  let elements=document.querySelectorAll(e);
+  elements.forEach(element => {
+    element.classList.add("slide-out-"+f);
+    console.log("slide-out-"+f)
+    // element.classList.remove("slide-in");
+  });
+  let backdrop=document.querySelectorAll('.offcanvas1-backdrop')
+      backdrop.forEach(element => {
+      element.classList.remove("show");
+    });
+}
+
+</script>
+
+
+
+
+
+<script>
+
+async function sendData(e,f){
+  let a=document.cookie
+  a=a.split('=')
+  a=a[1]
+  let response=await fetch('api/receive/', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'X-CSRFToken': a // CSRF token for security
+    },
+    body: JSON.stringify({'get':e,'body':f})
+  })
+  let responseData=await response.json()
+  return responseData
+}
+
+
+
+let disease=[]
+let symptom=[]
+
+
+function Full()
+{
+  document.getElementById('display').classList.add('scale')
+  document.getElementById('button').style.display='none'
+  document.getElementById('float_1').style.display='none'
+  document.getElementById('laptop').style.background='unset'
+  document.getElementById('home_2').classList.add('show')
+  getSymptom_list();
+}
+
+
+function symptom_ui(){
+  document.getElementById('symptom').innerHTML=""
+  temp=""
+  for(i=0;i<symptom.length;i++)
+  {
+    temp+='<div class="flex-div pill text-bg-primary">'+symptom[i]+'<i class="bi bi-x-lg" onclick="symptom_ui_remove('+i+')"></i></div>'
+  }
+
+  document.getElementById('symptom').innerHTML=temp
+}
+
+
+function Add(){
+  a=document.getElementById('input').value
+  if(symptom.includes(a)==true){
+    alert("Symptom Already Added")
+    document.getElementById('input').value=""
+  }
+  else if(a!="" && disease.includes(a)==true){
+    symptom.push(document.getElementById('input').value)
+    document.getElementById('input').value=""
+    symptom_ui()
+  }
+  else{
+    alert("Symptom not found")
+    document.getElementById('input').value=""
+
+  }
+}
+
+function Add_Ui(){
+  document.getElementById('datalistOptions').innerHTML=""
+  temp=""
+  for(i=0;i<disease.length;i++)
+  {
+    temp+='<option value="'+disease[i]+'"></option>'
+  }
+  document.getElementById('datalistOptions').innerHTML=temp
+}
+
+function symptom_ui_remove(e){
+  symptom.splice(e,1)
+  symptom_ui()
+}
+
+
+
+function getSymptom_list(){
+  sendData("symptom",0)
+  .then(response => {
+    disease=response.body.disease;
+    Add_Ui()
+    console.log(disease)    
+   })
+}
+
+
+let co_disease
+function CoDisease(){
+  // dd=['itching','skin_rash','nodal_skin_eruptions']
+  sendData("CoDisease",symptom)
+    .then(response => {
+      co_disease=response.body
+      console.log(co_disease)
+      console.log(response)    
+      offcanvas_Open('#output','bottom')
+      setTimeout(()=>{
+        chart1.updateOptions({xaxis:{categories:co_disease.forest.disease},yaxis: {decimalsInFloat:2,labels:{style:{colors:'#ffffff'}}}})
+        chart1.updateSeries([{data:co_disease.forest.percentage}])
+        if (co_disease.apriori!="none"){
+          chart2.updateOptions({xaxis:{categories:co_disease.apriori.disease,labels: {show:false}},yaxis: {min:undefined,max:undefined,decimalsInFloat:2,labels:{style:{colors:'#ffffff',},}}})
+          chart2.updateSeries([{data:co_disease.apriori.percentage}])
+        }
+        else{
+          chart2.updateOptions({xaxis:{categories:[""].apriori.disease,labels: {show:false}},yaxis: {min:undefined,max:undefined,decimalsInFloat:2,labels:{style:{colors:'#ffffff',},}}})
+          chart2.updateSeries([{data:[0]}])
+        }
+      },500)
+    })
+}
+
+
+
+
+var chart1
+var chart2
+
+function chart(){
+  var options = {
+    series: [{name: 'Disease',
+              data:[0]
+           }],
+    yaxis: {min:0,max:100,tickAmount:2,decimalsInFloat:2,labels:{style:{colors:'#ffffff'}},title: {text: 'percentage',style:{color:'#ffffff',fontWeight:400,cssClasss:'apexcharts-yaxis-title'}}},
+    xaxis: {
+            categories:[""],
+            labels:{style:{colors:'#ffffff'}},title: {text: 'disease',offsetY:90,style:{color:'#ffffff'}},
+          },
+    chart: {type: 'bar',height: 350,toolbar:{show:false}},
+    // colors:['#f44336','#e91e63'],
+    plotOptions: {bar: {horizontal: false,columnWidth: '40%',borderRadius: 10,borderRadiusApplication: 'end',style:{colors:['#ffff00'],},dataLabels: {position:'center'}}},
+    dataLabels: {enabled: true,style:{colors:['#ffff00'],},background:{dropshadow:{enabled:true,top:10,left:10.,blur:10,color:'#000'}},formatter: function (val){return val.toFixed(1) +'%';}},
+    stroke: {show: true,width: 2,colors: ['transparent']},
+    // legend:{show:false},
+    fill: {opacity: 1,colors:['#f44336'],},
+    tooltip: {theme:'dark',y: {formatter: function (val) {return val.toFixed(3) + "%"}}}
+  };
+  chart1 = new ApexCharts(document.querySelector("#chart1"), options);
+  chart2 = new ApexCharts(document.querySelector("#chart2"), options);
+  chart1.render()
+  chart2.render()
+
+}
+chart()
+
+
+
+
+
+
+function Test_data(e){
+  data=[
+    ["back_pain", "chills", "headache", "high_fever", "joint_pain", "loss_of_appetite", "malaise", "muscle_pain", "nausea", "pain_behind_the_eyes", "red_spots_over_body", "skin_rash", "vomiting","abnormal_menstruation", "diarrhoea", "excessive_hunger", "fast_heart_rate", "fatigue", "irritability", "muscle_weakness", "restlessness", "sweating", "weight_loss"],
+    ["fatigue", "headache", "itching", "lethargy", "loss_of_appetite", "malaise", "mild_fever", "red_spots_over_body", "skin_rash", "swelled_lymph_nodes","blurred_and_distorted_vision", "excessive_hunger", "fatigue", "increased_appetite", "irregular_sugar_level", "lethargy", "polyuria", "restlessness", "weight_loss","abdominal_pain", "chills", "constipation", "diarrhoea", "fatigue", "headache", "high_fever", "nausea", "toxic_look_(typhos)", "vomiting"],
+    ["breathlessness", "cough", "family_history", "high_fever", "mucoid_sputum","burning_micturition", "itching", "skin_rash", "spotting_ urination","bruising", "cramps", "fatigue", "obesity", "prominent_veins_on_calf", "swollen_legs"],
+    ["abdominal_pain", "coma", "dark_urine", "fatigue", "high_fever", "joint_pain", "loss_of_appetite", "nausea", "stomach_bleeding", "vomiting", "yellowing_of_eyes", "yellowish_skin","abdominal_pain", "dark_urine", "diarrhoea", "joint_pain", "loss_of_appetite", "mild_fever", "muscle_pain", "vomiting", "yellowing_of_eyes", "yellowish_skin"],
+    ["chest_pain", "chills", "congestion", "continuous_sneezing", "cough", "fatigue", "headache", "high_fever", "loss_of_smell", "malaise", "muscle_pain", "phlegm", "redness_of_eyes", "runny_nose", "sinus_pressure", "throat_irritation","back_pain", "chills", "headache", "high_fever", "joint_pain", "loss_of_appetite", "malaise", "muscle_pain", "nausea", "pain_behind_the_eyes", "red_spots_over_body", "skin_rash", "vomiting","blood_in_sputum", "breathlessness", "chest_pain", "chills", "cough", "fatigue", "high_fever", "loss_of_appetite", "malaise", "mild_fever", "phlegm", "swelled_lymph_nodes", "vomiting", "weight_loss", "yellowing_of_eyes"],
+    ["excessive_hunger", "fatigue", "increased_appetite", "irregular_sugar_level", "lethargy", "obesity", "polyuria", "restlessness", "weight_loss","abdominal_pain", "acute_liver_failure", "coma", "dark_urine", "fatigue", "high_fever", "joint_pain", "loss_of_appetite", "nausea", "stomach_bleeding", "yellowing_of_eyes", "yellowish_skin"],
+    ["back_pain", "chills", "headache", "high_fever", "joint_pain", "loss_of_appetite", "malaise", "muscle_pain", "nausea", "pain_behind_the_eyes", "red_spots_over_body", "skin_rash", "vomiting","abnormal_menstruation", "brittle_nails", "cold_hands_and_feets", "depression", "dizziness", "enlarged_thyroid", "fatigue", "irritability", "lethargy", "mood_swings", "swollen_extremeties", "weight_gain"],
+    ["abdominal_pain", "distention_of_abdomen", "fluid_overload.1", "history_of_alcohol_consumption", "swelling_of_stomach", "vomiting", "yellowish_skin","excessive_hunger", "fatigue", "increased_appetite", "irregular_sugar_level", "lethargy", "obesity", "polyuria", "restlessness", "weight_loss","inflammatory_nails", "joint_pain", "silver_like_dusting", "skin_rash", "small_dents_in_nails"],
+    ["abdominal_pain", "dark_urine", "fatigue", "lethargy", "loss_of_appetite", "malaise", "receiving_blood_transfusion", "receiving_unsterile_injections", "yellow_urine", "yellowing_of_eyes", "yellowish_skin","blood_in_sputum", "chest_pain", "chills", "cough", "fatigue", "high_fever", "loss_of_appetite", "malaise", "mild_fever", "phlegm", "sweating", "swelled_lymph_nodes", "vomiting", "weight_loss", "yellowing_of_eyes"],
+    ["acidity", "chest_pain", "cough", "ulcers_on_tongue", "vomiting","dizziness", "headache", "lack_of_concentration", "loss_of_balance","headache", "loss_of_balance", "nausea", "spinning_movements", "vomiting"],
+  ]
+  symptom=data[e]
+  symptom_ui()
+  setTimeout(()=>{
+    // CoDisease()
+  },2000)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>
