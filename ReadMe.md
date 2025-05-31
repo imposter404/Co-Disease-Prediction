@@ -8,7 +8,9 @@ the project leverage data analysis and predictive modeling to assist healthcare 
 ## Written In Python
 
 <div align="left">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="50px" alt="Python" />  
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="50px" alt="Python" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/django-original.svg" height="50px" alt="Django" />  
+ 
 
 </div>
 
