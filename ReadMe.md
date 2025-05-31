@@ -9,8 +9,6 @@ the project leverage data analysis and predictive modeling to assist healthcare 
 
 <div align="left">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="50px" alt="Python" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg" height="50px" alt="Django" />  
- 
 
 </div>
 
